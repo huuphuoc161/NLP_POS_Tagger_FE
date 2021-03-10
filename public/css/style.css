@@ -1,0 +1,42 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@440&display=swap');
+
+.wrapper {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+
+.wrapper__header {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.wrapper__input-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper__input-data__btn-submit {
+  width: 60%;
+  margin: 20px;
+}
+
+.wrapper__result {
+  margin: 0 auto;
+  min-height: 200px;
+  min-width: 900px;
+  margin-top: 50px;
+  background-color: aliceblue;
+  padding: 40px 10px;
+}
+
+.wrapper__result__tooltip {
+  margin-bottom: 60px;
+}
