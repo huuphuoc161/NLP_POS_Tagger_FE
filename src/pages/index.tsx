@@ -14,7 +14,7 @@ const IndexPage = (props: any) => {
   }
 
   function fetchPOSTags() {
-    const url = `http://localhost:5000/?sentence=${encodeURIComponent(
+    const url = `https://nlp-pos-tagger.herokuapp.com/?sentence=${encodeURIComponent(
       sentence
     )}`;
     axios.get(url).then((data) => {
